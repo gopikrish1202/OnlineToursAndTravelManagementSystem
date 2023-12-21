@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #da70d6;
+            text-align: center;
+            padding: 50px;
+            font-family: cursive;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .redirect-info {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        alert("Login Successful!");
+        // Redirect to the logged-in page after a delay
+        setTimeout(function () {
+            window.location.href = 'index1_loggedin.php'; // Replace with your actual logged-in page URL
+        }, 3000); // 3000 milliseconds (3 seconds)
+    </script>
+</head>
+<body>
+    <h1><strong>Login successful!</strong></h1>
+    <p class="redirect-info">Redirecting to the logged-in page...</p>
+</body>
+</html>
